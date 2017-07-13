@@ -1,0 +1,151 @@
+body{
+	height: auto;
+}
+
+/*----------- NAVEGADOR PHONE -----------*/
+.el-nav-phone{
+	color: black;
+    background-color: rgba(250,250,250, 0.7);
+    box-shadow: none;
+    height: 20px;  
+    line-height: 20px;     
+}
+
+.hora p,
+.bateria p{
+	margin: 0;
+}
+
+nav .nav-wrapper i{
+    line-height: 20px;	
+}
+
+/*----------- NAVEGADOR LOGOS -----------*/
+.el-nav-logos{
+    background-color: transparent;
+    box-shadow: none;
+    height: 30px;  
+    line-height: 20px; 
+    position: relative;
+    top: -30px;        
+}
+
+nav .brand-logo{
+    position: center;	
+}
+
+.logo{
+	width: 60px;
+}
+
+.circulo-gift{
+    position: center;	
+	background-color: #FFFFFF;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	padding-top: 13px;
+	position: relative;
+	left: 30%;
+	border: 1px solid #BFBFBF;	
+}
+
+.circulo-gift i{
+	color: #7F7F7F;
+	font-size: 30px;
+}
+
+.fondo-circulo-foto{
+	border-radius: 50%;	
+	width: 50px;
+	height: 50px;	
+	background-color: white;	
+	border: 1px solid #BFBFBF;
+	position: relative;
+	left: 10%;
+}
+
+.rounded-circle{
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	position: relative;
+	top: 4px;
+
+}
+nav .button-collapse {
+   
+    height: 50px;
+    margin: 0 6px;
+}
+/*----------- MAPA -----------*/
+.mapa-fondo{
+	position: relative;
+}
+
+.el-mapa{
+	width: 100%;
+	height: 750px;
+    position: absolute;
+    top: -150px;
+    overflow: hidden;
+    z-index: -10;
+
+}
+
+/*----------- LOGOS GOOGLE NAV -----------*/
+.logo-gogle{
+	width: 70px;
+}
+
+.circulo-navigation{
+    position: center;	
+	background-color: #FFFFFF;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	position: relative;
+	left: 70%;
+	border: 1px solid #BFBFBF;	
+	margin-bottom: 5px;	
+}
+
+.circulo-navigation i {
+	color: #7F7F7F;
+	font-size: 25px;	
+	margin-top: 7px;
+}
+
+/*----------- INPUT BTN -----------*/
+.botones-encontrar{
+    position: relative;
+    top: 350px;
+}
+
+.botones-encontrar .col.s12 > .btn {
+   width: 100%;
+}
+
+.fila-btn-encontrar{
+	margin-bottom: 0;	
+}
+
+input[type=text]:not(.browser-default){
+	background-color: white;
+	border-radius: 0.5em;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]){
+	border-bottom: 1px solid #6C6298;
+    box-shadow: 0 1px 0 0 #6C6298;
+}
+
+.btn-set{
+	border-radius: 0.5em;
+    background-color: #6C6298;
+}
+
+.btn-set:hover,
+.btn-set:focus{
+	background-color: #27136F;	
+}
