@@ -6,16 +6,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
     <!--Font Awesome-->
     <script src="https://use.fontawesome.com/fb4df1f3f2.js"></script>
     <!--CSS-->
-    <link href="css/profile.css" rel="stylesheet">
+    <link href="assets/css/profile.css" rel="stylesheet">
 
 </head>
 
 <body>
+    <!--SIDE NAVBAR-->
     <nav>
         <ul id="slide-out" class="side-nav">
             <li><a href="ver-saldo.html"><i class="material-icons">&#xE227;</i> Ver saldo</a></li>
@@ -27,10 +29,32 @@
         </ul>
         <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
     </nav>
-<section class="picture-background">
-    <img class="circle img-fluid center" src="docs/profile.jpg" alt="">
-</section>
-    
+    <!--PROFILE PICTURE-->
+    <section class="picture-background">
+        <img class="circle img-fluid center" src="assets/docs/profile.jpg" alt="">
+    </section>
+    <!--EMAIL -->
+    <section class="container cards">
+        <div class="email row">
+            <div class="col s6">
+                <a href="#" class="waves-effect waves-light btn white" id="email">Blanco@malumas.cl</a>
+            </div>
+        </div>
+        <!--INPUT NUMBER -->
+        <div class="row">
+            <div class="input-field col s6">
+                <input value="Número de tarjeta" id="card-number" type="text" class="validate">
+            </div>
+        </div>
+        <!--BUTTON-->
+        <div>
+            <a id="add-card" href="#" class="waves-effect waves-light btn">Agregar Tarjeta</a>
+        </div>
+        <div>
+            <a id="bip-number" href="#" class="waves-effect waves-light btn">111111111111111</a>
+        </div>
+       
+    </section>
 </body>
 
 <!-- jQuery -->
@@ -38,8 +62,8 @@
 <!-- MATERIALIZE -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
 <!-- JS -->
-<script src="js/main.js"></script>
-<script src="js/init.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/init.js"></script>
 </body>
 
 </html>

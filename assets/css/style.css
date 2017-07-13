@@ -1,0 +1,46 @@
+body {
+    background-color: #3E3F41;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*=============================================
+=            INDEX + TEXT            =
+=============================================*/
+
+.color {
+    color: #EDA605;
+}
+
+figure img {
+    width: 30%;
+    margin-left: 36%;
+    padding-top: 50px;
+}
+
+
+
+/*=============================================
+=            FORMULARIO          =
+=============================================*/
+
+.form-input {
+    padding-top: 20px;
+    background-color: white;
+    margin: 8%;
+}
+
+.color-background {
+    background-color: #EDA605;
+}
+
+.forget {
+    color: white;
+    margin: 8%;
+}
+
+.sign-up {
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}

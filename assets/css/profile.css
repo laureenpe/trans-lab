@@ -1,0 +1,79 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #dddee0;
+}
+
+nav {
+    background-color: #3E3F41;
+}
+
+
+/*=============================================
+=            PICTURE           =
+=============================================*/
+
+.picture-background {
+    background-color: #EDA605;
+}
+
+.picture-background img {
+    width: 40%;
+    height: 23vh;
+    margin-left: 30%;
+    margin-bottom: 12%;
+    margin-top: 12%;
+}
+
+#slide-out {
+    padding-top: 20px;
+}
+
+
+/*=============================================
+=            ICONS            =
+=============================================*/
+
+.side-nav li>a>i, .side-nav li>a>[class^="mdi-"], .side-nav li>a li>a>[class*="mdi-"], .side-nav li>a>i.material-icons {
+    color: #EDA605;
+}
+
+
+/*=============================================
+=            EMAIL            =
+=============================================*/
+
+#email {
+    color: black;
+    text-transform: lowercase;
+}
+
+.email {
+    padding-top: 20px;
+    margin-top: 6%;
+}
+
+.cards {
+    margin-left: 20%;
+}
+
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+    width: 127%;
+    margin-bottom: auto;
+    color: #454545;
+}
+
+
+/*=============================================
+=            ADD CARD            =
+=============================================*/
+
+#add-card {
+    background-color: #EDA605;
+    color: white;
+}
+
+#bip-number {
+    background-color: white;
+    margin-top: 20px;
+    color: #454545;
+}
