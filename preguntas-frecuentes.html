@@ -2,21 +2,71 @@
 <html lang="en">
 
 <head>
-    <title>TransLab App</title>
+    <title>Preguntas Frecuentes</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
     <!--Font Awesome-->
     <script src="https://use.fontawesome.com/fb4df1f3f2.js"></script>
     <!--CSS-->
-    <link href="css/options-style.css" rel="stylesheet">
+    <link href="assets/css/preguntas-frecuentes.css" rel="stylesheet">
 
 </head>
 
 <body>
-    
+    <!--SIDE NAVBAR-->
+    <nav>
+        <a href="#" class="brand-logo">TRANS - LAB</a>
+        <ul id="slide-out" class="side-nav">
+            <li><a href="ver-saldo.html"><i class="material-icons">&#xE227;</i> Ver saldo</a></li>
+            <li><a href="calcular-tarifa.html"><i class="fa fa-calculator" aria-hidden="true"></i>Calcular Tarifa</a></li>
+            <li><a href="perfil.html"><i class="fa fa-user" aria-hidden="true"></i>Perfil</a></li>
+            <li><a href="preguntas-frecuentes.html"><i class="material-icons">question_answer</i>Preguntas frecuentes</a></li>
+            <li><a href="options.html"><i class="material-icons">home</i> Home</a></li>
+
+        </ul>
+        <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+    </nav>
+    <!--title-->
+    <section class="frequently-question center">
+        <text>
+            <h4>Preguntas</h4>
+            <h4>Frecuentes</h4>
+        </text>
+    </section>
+    <!---COLLAPSIBLE ITEMS-->
+    <div class="items container">
+        <ul class="collapsible" data-collapsible="accordion">
+            <li>
+                <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+                <div class="collapsible-body"><span>LEsse magna mollit deserunt reprehenderit esse nulla voluptate esse.Lorem ipsum dolor sit amet.</span></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+                <div class="collapsible-body"><span>LEsse magna mollit deserunt reprehenderit esse nulla voluptate esse.Lorem ipsum dolor sit amet.</span></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+                <div class="collapsible-body"><span>LEsse magna mollit deserunt reprehenderit esse nulla voluptate esse.Lorem ipsum dolor sit amet.</span></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+                <div class="collapsible-body"><span>LEsse magna mollit deserunt reprehenderit esse nulla voluptate esse.Lorem ipsum dolor sit amet.</span></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+                <div class="collapsible-body"><span>LEsse magna mollit deserunt reprehenderit esse nulla voluptate esse.Lorem ipsum dolor sit amet.</span></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+                <div class="collapsible-body"><span>LEsse magna mollit deserunt reprehenderit esse nulla voluptate esse.Lorem ipsum dolor sit amet.</span></div>
+            </li>
+        </ul>
+    </div>
+
 </body>
 
 <!-- jQuery -->
@@ -24,8 +74,8 @@
 <!-- MATERIALIZE -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
 <!-- JS -->
-<script src="js/main.js"></script>
-<script src="js/init.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/init.js"></script>
 </body>
 
 </html>

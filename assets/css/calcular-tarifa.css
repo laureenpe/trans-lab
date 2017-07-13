@@ -1,0 +1,32 @@
+/*=============================================
+=            MONEY            =
+=============================================*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #dddee0;
+}
+
+
+/**
+ *
+ * SIDE-NAVBAR
+ *
+ */
+
+nav {
+    background-color: #3E3F41;
+}
+
+
+
+/*=============================================
+=            ICONS            =
+=============================================*/
+
+.side-nav li>a>i, .side-nav li>a>[class^="mdi-"], .side-nav li>a li>a>[class*="mdi-"], .side-nav li>a>i.material-icons {
+    color: #EDA605;
+}
+
+
+/*=====  End of Section Money ======*/

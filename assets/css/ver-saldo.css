@@ -1,0 +1,77 @@
+/*=============================================
+=            MONEY            =
+=============================================*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #dddee0;
+}
+
+
+/**
+ *
+ * SIDE-NAVBAR
+ *
+ */
+
+nav {
+    background-color: #3E3F41;
+}
+
+
+/**
+ *
+ * TITLE
+ *
+ */
+
+#saldo {
+    background-color: #EDA605;
+}
+
+.update-card {
+    margin-top: 10%;
+}
+
+
+/**
+ *
+ * INPUT SELECTOR
+ *
+ */
+
+.options {
+    background-color: white;
+}
+
+
+/**
+ *
+ * HIDE BOX
+ *
+ */
+
+.title {
+    background-color: #3E3F41;
+    color: white;
+    margin-top: 20%;
+}
+
+.yellow-container {
+    background-color: #EDA605;
+    color: white;
+    padding-top: 30px;
+    font-size: 50px;
+}
+
+
+/*=============================================
+=            ICONS            =
+=============================================*/
+
+.side-nav li>a>i, .side-nav li>a>[class^="mdi-"], .side-nav li>a li>a>[class*="mdi-"], .side-nav li>a>i.material-icons {
+    color: #EDA605;
+}
+
+
+/*=====  End of Section Money ======*/
