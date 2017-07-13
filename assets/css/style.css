@@ -19,7 +19,6 @@ figure img {
 }
 
 
-
 /*=============================================
 =            FORMULARIO          =
 =============================================*/
@@ -32,6 +31,7 @@ figure img {
 
 .color-background {
     background-color: #EDA605;
+    height: 6vh;
 }
 
 .forget {
@@ -42,5 +42,7 @@ figure img {
 .sign-up {
     color: white;
     text-transform: uppercase;
-    padding-bottom: 30px;
 }
+
+
+/*=====  End of Section INDEX ======*/

@@ -1,7 +1,19 @@
+
+/*=============================================
+=            OPTIONS            =
+=============================================*/
 body{
     background-color: #E2DCDC;
 
 }
+
+/**
+ *
+ * SIDE-NAVBAR
+ *
+ */
+
+
 nav{
     background-color: #3E3F41;
 
@@ -9,7 +21,13 @@ nav{
 #slide-out{
 padding-top: 20px;
 }
-/*OPTION CONTENT*/
+
+/**
+ *
+ * OPTION CONTENT
+ *
+ */
+
 .box{
 text-transform: uppercase;
 font-weight: 700;
@@ -25,8 +43,16 @@ margin-right: 20px;
 .box a{
 color: white;
 }
-/*ICONS*/
+
+/**
+ *
+ * ICONS
+ *
+ */
+
 
 .side-nav li>a>i, .side-nav li>a>[class^="mdi-"], .side-nav li>a li>a>[class*="mdi-"], .side-nav li>a>i.material-icons {
      color: #EDA605;
 }
+
+/*=====  End of Section OPTIONS ======*/
