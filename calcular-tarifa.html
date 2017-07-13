@@ -12,7 +12,7 @@
     <!--Font Awesome-->
     <script src="https://use.fontawesome.com/fb4df1f3f2.js"></script>
     <!--CSS-->
-    <link href="assets/css/ver-saldo.css" rel="stylesheet">
+    <link href="assets/css/calcular-tarifa.css" rel="stylesheet">
 
 </head>
 
@@ -34,40 +34,68 @@
     <section class="container update-card">
         <div class="row">
             <div class="input-field col s12">
-                <input value="Número de tarjeta" id="card-number-saldo" type="text" class="validate">
+                <input value="Número de tarjeta" id="card-number-calculate" type="text" class="validate">
             </div>
         </div>
-        <!--SELECTORS-->
-        <div class="input-field col s12 options">
-            <select>
-                <option value="" disabled selected>Choose your option</option>
-                <!--AQUI VAN LAS TARJETAS GUARDADAS-->
-                <option value="1">Option 1</option>
-                <option value="2">Option 2</option>
-                <option value="3">Option 3</option>
-            </select>
+    </section>
+
+    <!--SELECTORS-->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col s6">
+                    <div class="input-field col s12">
+                        <select>
+                            <option value="" disabled selected>Choose your option</option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                        <label>Tarifa</label>
+                    </div>
+                </div>
+                <div class="col s6">
+                    <div class="input-field col s12">
+                        <select>
+                            <option value="" disabled selected>Choose your option</option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                        <label>Tarjeta</label>
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
 
         <!--BUTTON-->
+    <section>
         <div class="row">
             <div class=" col s12 offset-s3">
-                <a id="saldo" href="#" class="waves-effect waves-light btn">Ver Saldo</a>
+                <a id="calculate" href="#" class="waves-effect waves-light btn">Calcular</a>
             </div>
         </div>
-
     </section>
+
     <!--HIDE BOX WITH TOTAL MONEY-->
     <section class="hide-box container">
         <div class="row">
             <div class="col s12  title center">
-                <medium>SALDO TOTAL</medium>
+                <medium>COSTO PASAJE</medium>
             </div>
-            <div class="col s12 yellow-container center">
-                <span><i class="material-icons">attach_money</i><medium id="total-money">900</medium></span>
-
+            <div class="col s12 yellow-container center margin">
+                <span><i class="material-icons">attach_money</i><medium id="total-costo">680</medium></span>
             </div>
         </div>
-
+        <div class="row">
+            <div class="col s12  title center margin">
+                <medium>SALDO FINAL</medium>
+            </div>
+            <div class="col s12 yellow-container center">
+                <span><i class="material-icons">attach_money</i><medium id="saldo-final">800</medium></span>
+            </div>
+        </div>
 
     </section>
 

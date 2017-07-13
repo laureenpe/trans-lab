@@ -1,5 +1,5 @@
 /*=============================================
-=            MONEY            =
+=            TAX MONEY            =
 =============================================*/
 
 body {
@@ -19,7 +19,41 @@ nav {
 }
 
 
+/**
+ *
+ * BUTTONS
+ *
+ */
+#calculate{
+    background-color: #EDA605;
+    margin-bottom: 0;
+}
 
+
+/**
+ *
+ * HIDE BOX
+ *
+ */
+.hide-box{
+    
+}
+.title {
+    background-color: #3E3F41;
+    color: white;
+    margin-top: 20%;
+}
+
+.yellow-container {
+    background-color: #EDA605;
+    height: 20vh;
+    color: white;
+    padding-top: 5px;
+    font-size: 50px;
+}
+.margin{
+    margin-top: 2px;
+}
 /*=============================================
 =            ICONS            =
 =============================================*/
@@ -29,4 +63,4 @@ nav {
 }
 
 
-/*=====  End of Section Money ======*/
+/*=====  End of Section TAX-MONEY ======*/
