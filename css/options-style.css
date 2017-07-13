@@ -1,0 +1,32 @@
+body{
+    background-color: #E2DCDC;
+
+}
+nav{
+    background-color: #3E3F41;
+
+}
+#slide-out{
+padding-top: 20px;
+}
+/*OPTION CONTENT*/
+.box{
+text-transform: uppercase;
+font-weight: 700;
+background-color:   #EDA605;
+padding: 20px;
+margin-top: 50px;
+margin-left: 20px;
+margin-right: 20px;
+}
+.content{
+    margin-top: 20%;
+}
+.box a{
+color: white;
+}
+/*ICONS*/
+
+.side-nav li>a>i, .side-nav li>a>[class^="mdi-"], .side-nav li>a li>a>[class*="mdi-"], .side-nav li>a>i.material-icons {
+     color: #EDA605;
+}

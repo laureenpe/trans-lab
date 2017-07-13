@@ -1,0 +1,24 @@
+nav{
+    background-color: #3E3F41;
+
+}
+/*PICTURE*/
+.picture-background{
+background-color: #EDA605;
+}
+.picture-background img{
+    width: 40%;
+    height: 23vh;
+    margin-left: 30%;
+    margin-bottom: 12%;
+    margin-top: 12%;
+}
+#slide-out{
+padding-top: 20px;
+}
+
+/*ICONS*/
+
+.side-nav li>a>i, .side-nav li>a>[class^="mdi-"], .side-nav li>a li>a>[class*="mdi-"], .side-nav li>a>i.material-icons {
+     color: #EDA605;
+}
