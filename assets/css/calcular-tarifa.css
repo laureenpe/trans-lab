@@ -26,8 +26,6 @@ nav {
  */
 #calculate{
     background-color: #EDA605;
-    margin-bottom: 0;
-    margin-left: 20%;
 
 }
 
@@ -44,9 +42,7 @@ nav {
  * HIDE BOX
  *
  */
-.hide-box{
-    
-}
+
 .title {
     background-color: #3E3F41;
     color: white;

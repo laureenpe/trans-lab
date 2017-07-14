@@ -45,23 +45,17 @@
             <div class="row">
                 <div class="col s6">
                     <div class="input-field col s12">
-                        <select>
+                        <select id="schedule-select">
                             <option value="" disabled selected>Choose your option</option>
-                            <option id="alto" value="1">Horario Alto  $740 CLP</option>
-                            <option id="medio" value="2">Horario Medio  $680 CLP</option>
-                            <option id="bajo" value="3">Horario Bajo  $640 CLP</option>
+                            <option  value="740">Horario Alto</option>
+                            <option  value="680">Horario Medio</option>
+                            <option  value="640">Horario Bajo </option>
                         </select>
                         <label>Tarifa</label>
                     </div>
                 </div>
                 <div class="col s6">
-                    <div class="input-field col s12">
-                        <select>
-                            <option value="" disabled selected>Choose your option</option>
-                            <option value="1">Option 1</option>
-                            <option value="2">Option 2</option>
-                            <option value="3">Option 3</option>
-                        </select>
+                    <div class="input-field col s12 container-saldo">
                         <label>Tarjeta</label>
                     </div>
                 </div>
@@ -72,33 +66,32 @@
     <!--BUTTON-->
     <section>
         <div class="row">
-            <div class=" col s12 ">
+            <div class=" col s12 center">
                 <a id="calculate" href="#" class="waves-effect waves-light btn">Calcular</a>
             </div>
         </div>
     </section>
 
     <!--HIDE BOX WITH TOTAL MONEY-->
-    <section class="hide-box">
+    <section class="hide-box hide">
         <div class="container">
-
             <div class="row">
                 <div class="col s12  title center">
                     <medium>COSTO PASAJE</medium>
                 </div>
                 <div class="col s12 yellow-container center">
-                    <span><i class="material-icons">attach_money</i><medium id="total-costo">680</medium></span>
+                    <span><i class="material-icons">attach_money</i><medium id="total-costo"></medium></span>
                 </div>
             </div>
         </div>
 
-        <div class="container">
+        <div class="container ">
             <div class="row">
                 <div class="col s12  title center margin">
                     <medium>SALDO FINAL</medium>
                 </div>
                 <div class="col s12 yellow-container center">
-                    <span><i class="material-icons">attach_money</i><medium id="saldo-final">800</medium></span>
+                    <span><i class="material-icons">attach_money</i><medium id="saldo-final"></medium></span>
                 </div>
             </div>
         </div>
@@ -112,7 +105,7 @@
 <!-- MATERIALIZE -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
 <!-- JS -->
-<script src="assets/js/main.js"></script>
+<script src="assets/js/tarifa.js"></script>
 <script src="assets/js/init.js"></script>
 </body>
 
