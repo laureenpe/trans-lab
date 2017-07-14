@@ -1,6 +1,5 @@
 # trans-lab
 Proyecto TransLab
-![alt text](assets/docs/inicio.jpg "Trans-lab")
 ![alt text](assets/docs/bip.png "Trans-lab")
 
 - Creación de una aplicación web para consultar saldo en Bip!
