@@ -4,8 +4,9 @@ $(document).ready(function () {
     getFromLocalStorage(); //obtener local storage
 
 });
-
-//VALIDATIONS
+// ────────────────────────────────────────── I ────────────────────────────────────────────────────────────────────────────
+//Esta Función valida la contraseña y el email que el usuario ponga y le adiciona un borde rojo en caso de que haya un error
+// ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 function validateForm() {
     var password = $('#password').val();
     var valid = true;
@@ -24,26 +25,28 @@ function validateForm() {
 
     return valid;
 }
-
+// ────────────────────────────────────────── II ────────────────────────────────────────────────────────────────────────────
+//Esta Función indica que si cumplió las validaciones vaya a la otra página que es options.html y lo guarde en Local Storage
+// ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 function onLogin() {
     if (validateForm()) { //If validate form is True
         $("#sign-session").attr("href", "options.html");
         saveToLocalStorage(); //guarda a local storage
     }
 }
-//LOCAL STORAGE
+// ────────────────────────────────────────── III ────────────────────────────────────────────────────────────────────────────
+//Esta Función hace que lo que tipee el usuario quede guardado en local storage si hay soporte del navegador
+// ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 function saveToLocalStorage() {
     if (typeof (Storage) !== "undefined") {//soporte del navegador
 
-        
+
         if ($('#email').val() != '') {//si el email es diferente de vacío
             localStorage.setItem('email', $('#email').val());
         }
         if ($('#password').val() != '') {//si el valor es diferente de vacìo
             localStorage.setItem('password', $('#password').val());
         }
-        
-
         alert('Datos actualizados');
 
     } else {
@@ -52,6 +55,9 @@ function saveToLocalStorage() {
     }
 }
 
+// ────────────────────────────────────────── III ────────────────────────────────────────────────────────────────────────────
+//Esta Función obtiene del local storage el email y la contraseña
+// ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 function getFromLocalStorage() {
     console.log('getting info for: ' + localStorage.getItem('password'));
     console.log('getting info for: ' + localStorage.getItem('email'));
