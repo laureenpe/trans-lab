@@ -32,14 +32,20 @@
     </nav>
     <!--PROFILE PICTURE-->
     <section class="picture-background">
-        <img  class="circle img-fluid center" src="assets/docs/profile.png" alt="">
+        <img class="circle img-fluid center" src="assets/docs/profile.png" alt="">
     </section>
     <!--EMAIL -->
-    <section class="container ">
-        <div class="email row">
-            <div class="col s12">
-                <a class="waves-effect waves-light btn white" id="email"></a>
-            </div>
+    <section>
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s12 background-white">
+                        <i class="material-icons prefix">email_circle</i>
+                        <input type="text" disabled selected>
+                        <label id="email" for="email"></label>
+                    </div>
+                </div>
+            </form>
         </div>
     </section>
 
@@ -56,11 +62,11 @@
                 <a id="add-card" id="new-task" href="#" class="waves-effect waves-light btn">Agregar Tarjeta</a>
             </div>
         </div>
-        <div class="row">
-            <div class="col s12 bip-cards">
-                
-            </div>
-        </div>
+        
+    </section>
+    <!--ADDING CARDS BY JS-->
+    <section class="bip-cards">
+       <!--Here goes the card, added by the user
     </section>
 
 </body>
