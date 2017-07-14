@@ -59,7 +59,3 @@ function getFromLocalStorage() {
     $('#password').val(localStorage.getItem('password'));
 }
 
-//Obtener elementos de este html para buscar mediante local storage los datos almacenados
-function getCache(key) {
-    return localStorage.getItem(key);           
-}

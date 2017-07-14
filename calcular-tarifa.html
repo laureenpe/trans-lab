@@ -34,7 +34,7 @@
     <section class="container update-card">
         <div class="row">
             <div class="input-field col s12">
-                <input value="Número de tarjeta" id="card-number-calculate" type="text" class="validate">
+                <input placeholder="Número de tarjeta" id="card-number-calculate" type="text" class="validate">
             </div>
         </div>
     </section>
@@ -47,9 +47,9 @@
                     <div class="input-field col s12">
                         <select>
                             <option value="" disabled selected>Choose your option</option>
-                            <option value="1">Option 1</option>
-                            <option value="2">Option 2</option>
-                            <option value="3">Option 3</option>
+                            <option id="alto" value="1">Horario Alto  $740 CLP</option>
+                            <option id="medio" value="2">Horario Medio  $680 CLP</option>
+                            <option id="bajo" value="3">Horario Bajo  $640 CLP</option>
                         </select>
                         <label>Tarifa</label>
                     </div>
@@ -69,7 +69,7 @@
         </div>
     </section>
 
-        <!--BUTTON-->
+    <!--BUTTON-->
     <section>
         <div class="row">
             <div class=" col s12 offset-s3">
@@ -79,21 +79,27 @@
     </section>
 
     <!--HIDE BOX WITH TOTAL MONEY-->
-    <section class="hide-box container">
-        <div class="row">
-            <div class="col s12  title center">
-                <medium>COSTO PASAJE</medium>
-            </div>
-            <div class="col s12 yellow-container center margin">
-                <span><i class="material-icons">attach_money</i><medium id="total-costo">680</medium></span>
+    <section class="hide-box">
+        <div class="container">
+
+            <div class="row">
+                <div class="col s12  title center">
+                    <medium>COSTO PASAJE</medium>
+                </div>
+                <div class="col s12 yellow-container center">
+                    <span><i class="material-icons">attach_money</i><medium id="total-costo">680</medium></span>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col s12  title center margin">
-                <medium>SALDO FINAL</medium>
-            </div>
-            <div class="col s12 yellow-container center">
-                <span><i class="material-icons">attach_money</i><medium id="saldo-final">800</medium></span>
+
+        <div class="container">
+            <div class="row">
+                <div class="col s12  title center margin">
+                    <medium>SALDO FINAL</medium>
+                </div>
+                <div class="col s12 yellow-container center">
+                    <span><i class="material-icons">attach_money</i><medium id="saldo-final">800</medium></span>
+                </div>
             </div>
         </div>
 

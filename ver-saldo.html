@@ -34,37 +34,30 @@
     <section class="container update-card">
         <div class="row">
             <div class="input-field col s12">
-                <input value="Número de tarjeta" id="card-number-saldo" type="text" class="validate">
+                <input placeholder="Número de tarjeta" id="card-number" type="text" class="validate">
             </div>
         </div>
         <!--SELECTORS-->
         <div class="input-field col s12 options">
-            <select>
-                <option value="" disabled selected>Choose your option</option>
-                <!--AQUI VAN LAS TARJETAS GUARDADAS-->
-                <option value="1">Option 1</option>
-                <option value="2">Option 2</option>
-                <option value="3">Option 3</option>
-            </select>
+            
         </div>
 
         <!--BUTTON-->
         <div class="row">
             <div class=" col s12 offset-s3">
-                <a id="saldo" href="#" class="waves-effect waves-light btn">Ver Saldo</a>
+                <a id="saldo-btn" href="#" class="waves-effect waves-light btn">Ver Saldo</a>
             </div>
         </div>
 
     </section>
     <!--HIDE BOX WITH TOTAL MONEY-->
-    <section class="hide-box container">
+    <section class="hide-box container hide">
         <div class="row">
             <div class="col s12  title center">
                 <medium>SALDO TOTAL</medium>
             </div>
             <div class="col s12 yellow-container center">
-                <span><i class="material-icons">attach_money</i><medium id="total-money">900</medium></span>
-
+                <span><medium id="total-money"></medium></span>
             </div>
         </div>
 
@@ -78,7 +71,7 @@
 <!-- MATERIALIZE -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
 <!-- JS -->
-<script src="assets/js/main.js"></script>
+<script src="assets/js/saldo.js"></script>
 <script src="assets/js/init.js"></script>
 </body>
 

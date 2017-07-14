@@ -29,7 +29,14 @@ nav {
     margin-bottom: 0;
 }
 
-
+.dropdown-content li>a, .dropdown-content li>span {
+    font-size: 12px;
+    color: #3E3F41;
+}
+.select-wrapper input.select-dropdown {
+    font-size: 10px;
+   
+}
 /**
  *
  * HIDE BOX
@@ -48,11 +55,9 @@ nav {
     background-color: #EDA605;
     color: white;
     padding-top: 5px;
-    font-size: 50px;
+    font-size: 30px;
 }
-.margin{
-    margin-top: 2px;
-}
+
 /*=============================================
 =            ICONS            =
 =============================================*/

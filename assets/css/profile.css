@@ -28,6 +28,10 @@ nav {
     padding-top: 20px;
 }
 
+.inputs {
+    margin: auto;
+}
+
 
 /*=============================================
 =            ICONS            =
@@ -52,13 +56,7 @@ nav {
     margin-top: 6%;
 }
 
-.cards {
-    margin-left: 20%;
-}
-
 input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
-    width: 57%;
-    margin-bottom: auto;
     color: #454545;
 }
 
@@ -70,12 +68,15 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
 #add-card {
     background-color: #EDA605;
     color: white;
+    margin-left: 16%;
 }
 
-#bip-number {
+.bip-number {
     background-color: white;
     margin-top: 20px;
     color: #454545;
+    margin-left: 16%;
 }
+
 
 /*=====  End of Section PROFILE ======*/
