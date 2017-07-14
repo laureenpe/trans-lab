@@ -21,7 +21,7 @@ function onGetSaldo() {
 // ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 
 function getSaldo(card_number) {
-    var url = "http://bip-servicio.herokuapp.com/api/v1/solicitudes.json?bip=" + card_number;
+    var url = "https://bip-servicio.herokuapp.com/api/v1/solicitudes.json?bip=" + card_number;
     $.ajax({
         url: url
     }).done(function (response) {

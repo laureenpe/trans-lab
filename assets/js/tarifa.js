@@ -14,7 +14,7 @@ $(document).ready(function () {
 // ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 function taxes() {
     var card_number = $("#card-number-calculate").val();
-    var url = "http://bip-servicio.herokuapp.com/api/v1/solicitudes.json?bip=" + card_number;
+    var url = "https://bip-servicio.herokuapp.com/api/v1/solicitudes.json?bip=" + card_number;
 
     $.ajax({
         url: url
