@@ -1,6 +1,6 @@
 # trans-lab
 Proyecto TransLab
-![alt text](assets/assets/docs/inicio.png "Trans-lab")
+![alt text](assets/docs/inicio.png "Trans-lab")
 
 - Creación de una aplicación web para consultar saldo en Bip!
 *Analizar la documentación en http://bip-servicio.herokuapp.com*
