@@ -1,14 +1,6 @@
 $(document).ready(function () {
     $('#saldo-btn').click(onGetSaldo);//listener para el botón
-    var cards = localStorage.getItem('cards').split(',');    
-    var html = '<select><option value="" disabled selected>Choose your option</option>';
-    
-    for(var i=0; i<cards.length; i++){
-        html += '<option value="'+cards[i]+'">'+cards[i]+'</option>';
-    }
-    html += '</select>';
-
-    $('.options').html(html);
+    selectBip();
 });
 
 function onGetSaldo() {
@@ -27,4 +19,16 @@ function getSaldo(card_number) {
     }).fail(function() {
 		alert("Tarjeta Bip no válida");
 	})
+}
+
+function selectBip(){
+    var cards = localStorage.getItem('cards').split(',');    
+    var html = '<select><option value="" disabled selected>Choose your option</option>';
+    
+    for(var i=0; i<cards.length; i++){
+        html += '<option value="'+cards[i]+'">'+cards[i]+'</option>';
+    }
+    html += '</select>';
+
+    $('.options').html(html);
 }

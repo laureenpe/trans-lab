@@ -27,6 +27,8 @@ nav {
 #calculate{
     background-color: #EDA605;
     margin-bottom: 0;
+    margin-left: 20%;
+
 }
 
 .dropdown-content li>a, .dropdown-content li>span {
