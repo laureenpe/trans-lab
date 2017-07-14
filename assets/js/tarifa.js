@@ -6,6 +6,7 @@
 
 $(document).ready(function () {
     $('#calculate').click(taxes);//listener para el botón
+    selectBip();
 });
 
 // ────────────────────────────────────────── I ─────────────────────────────────────────────────────────────────────────
@@ -36,7 +37,7 @@ function taxes() {
     })
 
 }
-/*
+
 // ────────────────────────────────────────── I ───────────────────────────────────────────────────────────────────────────────────────────────────────────────
 //  Esta función busca poner el valor seleccionado de la tarjeta en el input nùmero de tarjeta, para poderlo utilizar en el llamado ajax y me de un valor
 // ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -61,6 +62,6 @@ function selectBip() {
     $('.container-saldo').html(html);
     $('#select-storage').change(onChangeSelector);
 }
-*/
+
 
 
