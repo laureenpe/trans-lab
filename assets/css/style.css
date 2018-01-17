@@ -7,15 +7,16 @@ body {
 /*=============================================
 =            INDEX + TEXT            =
 =============================================*/
-
+.title{
+    height: 26vh;
+}
 .color {
     color: #EDA605;
 }
 
 figure img {
-    width: 30%;
-    margin-left: 36%;
-    padding-top: 50px;
+    width: 100%;
+    max-width: 50%;
 }
 h1{
     font-size: 30px;
@@ -24,6 +25,21 @@ h1{
 h6{
     padding-bottom: 30px;
 }
+/*animation image*/
+.image {
+    position: absolute;
+    top: 19%;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    margin:-60px 0 0 -60px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
 /*=============================================
 =            FORMULARIO          =
